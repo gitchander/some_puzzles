@@ -1,0 +1,33 @@
+Oskar's Two Piece Packing - What is the maximum number of moves with a 4x4x4 cube?
+
+https://www.youtube.com/watch?v=_h0ZWr_s2hA
+
+Chander's solution:
+
+(Z=0)
+	BAAA
+	BA--
+	BA--
+	BAAB
+(Z=1)
+	B-AA
+	-B--
+	ABB-
+	AABB
+(Z=2)
+	B-BA
+	BBB-
+	--B-
+	A-BB
+(Z=3)
+	ABBA
+	A-B-
+	AABB
+	AAAB
+
+level 12, moves (count 12) [Ay+1 Ax+1 Ay+1 Az-1 Ax-1 Az-1 Ay-1 Ax-1 Ay-1 Ax-1 Ay-1 Ax-2]
+level 12, moves (count 12) [Ay+1 Ax+1 Ay+1 Az-1 Ax-1 Az-1 Ay-1 Ax-1 Ay-1 Ax-1 Ay-2 Ax-2]
+total solutions 2
+level 12
+
+{"size":"4x4x4","level":12,"pattern":"4x4x4yBAAABAssBAssBAABBsAAsBssABBsAABBBsBABBBsssBsAsBBABBAAsBsAABBAAAB","timestamp":"2024-03-24T01:10:56+02:00"}
